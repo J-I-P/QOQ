@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int [] imgId={R.drawable.img01, R.drawable.img02, R.drawable.img03, R.drawable.img04, R.drawable.img05, R.drawable.img06};
+    //int [] imgId={R.drawable.img01, R.drawable.img02, R.drawable.img03, R.drawable.img04, R.drawable.img05, R.drawable.img06};
     String [] detail={"下午那場雷陣雨正是我的傑作\n（隨便說說別當真）\n祝福各位七夕情人節快樂",
     "這難道是傳說中的莫非定律......！",
     "輾轉難眠",
