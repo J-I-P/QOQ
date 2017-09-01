@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button android:id="@+id/btnNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView android:id="@+id/imgShow"
+        android:layout_width="180dp"
+        android:layout_height="360dp"
+        android:layout_below="@+id/btnNext"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/img01"/>
+
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgShow"
+        android:text="下午那場雷陣雨正是我的傑作\n
+（隨便說說別當真）\n
+祝福各位七夕情人節快樂"/>
+
+</RelativeLayout>
